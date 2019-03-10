@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -7,9 +7,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+*/
 
-.App-header {
-  background-color: #282c34;
+.App{
+  background-color: #23ffd6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,19 @@
   color: white;
 }
 
+.Navbar{
+  color: white;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+/*
 .App-link {
   color: #61dafb;
 }
@@ -31,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+*/
